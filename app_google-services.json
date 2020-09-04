@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "277556074955",
+    "firebase_url": "https://postie-1fdc4.firebaseio.com",
+    "project_id": "postie-1fdc4",
+    "storage_bucket": "postie-1fdc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556074955:android:c6a940af6903e66a75fe4e",
+        "android_client_info": {
+          "package_name": "com.example.postie11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556074955-f7i6o3j6av7rp1crdut0ep14b2ainskh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDId6xL-A_iI1bf5ZbI1Evyq7KsZovsCoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556074955-f7i6o3j6av7rp1crdut0ep14b2ainskh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

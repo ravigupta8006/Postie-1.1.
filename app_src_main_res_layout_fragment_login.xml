@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6e8e5"
+    tools:context=".LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round"
+        android:text="P"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="120dp"
+        android:text="Postie"
+        android:textColor="#9932cc"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/email_or_phone"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="33.7dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:hint="Email or Phone "
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="33.7dp"
+        android:hint="Passwod"
+
+        />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="33.7dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/widget_edittext_dark"
+        />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="3.9dp"
+        android:layout_centerHorizontal="true"
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button_round"
+        />
+
+
+    <TextView
+        android:id="@+id/create_account_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Create Account!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="105.7dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/widget_edittext_dark"
+        />
+
+</FrameLayout>

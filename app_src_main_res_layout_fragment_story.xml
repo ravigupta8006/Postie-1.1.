@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StoryFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/progress_container"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:progress="0"
+            android:progressDrawable="@drawable/story_progress"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/white"
+            android:src="@drawable/profile"
+            />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
